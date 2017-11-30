@@ -3,6 +3,9 @@ from keras.layers import *
 from keras.callbacks import *
 from keras.models import Model
 
+# LinkNet implementation
+# https://arxiv.org/pdf/1707.03718.pdf
+
 def encoder_block(i, n, m, batch_norm=False):
     if K.image_dim_ordering() == 'th':
         axis = 1
