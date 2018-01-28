@@ -1,6 +1,4 @@
-# Machine Learning and Deep Learning utilities
-
-### Deep Learning models
+# Deep Learning models
 
 - Semantic segmentation
   - U-Net (Keras) [https://arxiv.org/pdf/1505.04597.pdf]
